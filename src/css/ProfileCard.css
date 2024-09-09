@@ -1,0 +1,45 @@
+.ProfileContainer {
+    width: 1050px;
+    top: 55px;
+    /* right: 360px; */
+    gap: 0;
+    opacity: 1;
+    position: relative;
+    border-radius: 20px;
+    overflow-y: auto;
+    height: 50vh;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #132452 #f1f1f1;
+}
+
+/* WebKit Browsers */
+.ProfileContainer::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.ProfileContainer::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+}
+
+.ProfileContainer::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Optional: rounded corners for the thumb */
+}
+
+.ProfileContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.table-bordered, tr, td, th{
+    padding: 0.75rem !important;
+    border-color: rgba(230, 230, 230, 0.658);
+}   
+
+.table-bordered > thead > tr > th{
+    color: #0A3673BD !important;
+}
+
+.ProfileBody > tr > td{
+    color: var(--Schemes-Outline, rgba(121, 116, 126, 1)) !important;
+}

@@ -1,0 +1,13 @@
+.overall-grid-container {
+    display: 'flex';
+    justify-content: 'center';
+}
+
+.overall-reports-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-reports-count {
+    display: flex;
+}

@@ -1,0 +1,51 @@
+.ChartContainer{
+    width: 800px;
+    top: 70px;
+    left: 15px;
+    gap: 0;
+    opacity: 1;
+    position: relative;
+    border-radius: 20px;
+    overflow-y: auto;
+    height: 50vh;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #132452 #f1f1f1;
+}
+
+.custom-legend {
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+    height: 397px;
+    top: 976px;
+    left: 1225px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 8px !important;
+    border-radius: 2px !important;
+    /* Remove the border-radius to make bullets square */
+  }
+
+  .label{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 31.52px;
+    text-align: right;
+
+  }
+  

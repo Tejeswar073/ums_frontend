@@ -1,0 +1,21 @@
+
+.form_div {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.form_fields_div1 {
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    margin-bottom: 6rem;
+}
+
+.form_fields_left, .form_fields_right {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}

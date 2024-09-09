@@ -1,0 +1,59 @@
+.hoax_call_main_div {
+    padding: 0rem 2rem !important;
+}
+
+.hoax_call_body {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.form_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#form_top_heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_heading {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+#hr_d {
+    border-bottom: 3px solid grey;
+    width: 55vh;
+    margin-top: -1rem;
+
+}
+
+
+/* .form_fields_row1 {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    padding: 0rem 1rem;
+    justify-content:space-evenly;
+}
+
+.form_fields_div1 {
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    margin-bottom: 6rem;
+    flex-direction: column;
+} */

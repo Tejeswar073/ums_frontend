@@ -1,0 +1,57 @@
+.RecentContainer {
+    width: 1113px;
+    top: 15px;
+    left: 27px;
+    gap: 0;
+    opacity: 1;
+    position: relative;
+    border-radius: 20px;
+    overflow-y: auto;
+    height: 692px;
+    padding: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #132452 #f1f1f1;
+}
+
+/* WebKit Browsers */
+.RecentContainer::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    border-radius: 20px !important;
+}
+
+.RecentContainer::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+    border-radius: 20px !important;
+}
+
+.RecentContainer::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 20px !important; /* Optional: rounded corners for the thumb */
+}
+
+.RecentContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.TdStatus{
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    /* top: 92px; */
+    /* left: 581.63px; */
+    padding: 6px 0px 0px 0px;
+    /* gap: 10px; */
+    border-radius: 6px;
+    opacity: 0px;
+}
+
+
+
+.table-borderless > thead > tr > th{
+    color: rgba(143, 143, 143, 1) !important;
+}
+
+.recentBody > tr > td{
+    color: rgba(10, 54, 115, 0.81);
+
+}

@@ -1,0 +1,196 @@
+.form_discrete_enquiry_main_div {
+    padding: 0rem 2rem !important;
+}
+
+.discrete_enquiry_form_div {
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.form_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#form_top_heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_heading {
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+#hr_d {
+    border-bottom: 3px solid grey;
+    width: 55vh;
+    margin-top: -1rem;
+
+}
+
+.one_icon {
+    margin-right: 2rem;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+
+.form_fields_div1 {
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    margin-bottom: 6rem;
+}
+
+.form_fields_left, .form_fields_right {
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 0rem 1rem;
+}
+
+.heading_suspect_det {
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.box {
+    display: flex;
+}
+
+.build_field {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8E8E8E;
+}
+
+.drop {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 7rem;
+}
+
+.btn1_form {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    gap: 10px;
+    border-radius: 12px;
+    border: 2px solid #56749e;
+    opacity: 0px;
+    color: #56749e;
+    background-color: white;
+}
+
+.btn2_form {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    gap: 10px;
+    border-radius: 12px;
+    border: 2px solid #56749e;
+    opacity: 0px;
+    background-color: white;
+    color: #56749e;
+}
+
+.btn1_form:hover {
+    background-color: #56749e;
+    color: white;
+}
+
+.btn2_form:hover {
+    background-color: #56749e;
+    color: white;
+}
+.add_relative {
+    width: 150px;
+    height: Hug (39.13px)px;
+    margin-left: 30rem;
+    margin-top: 3rem;
+    gap: 0px;
+    border-radius: 7.65px ;
+    opacity: 0px;
+    background-color: #022759;
+    color: white;
+}
+
+.dateDiv {
+    position: relative;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black !important;
+  }
+  
+  .form-control:focus,
+  .form-control:focus-visible,
+  .form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .flatpickr-input {
+  border: none !important;
+  width: 100%;
+  padding: 8px 0;
+  outline: none !important; /* Remove default focus outline */
+  }
+  
+  .floating-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: all 0.2s ease-out;
+    font-size: 16px;
+    color: #737B7D; /* Adjust color as needed */
+  }
+  
+
+  .date-picker-container {
+    position: relative;
+  }
+  
+  .flatpickr-input {
+    padding-right: 30px; /* Adjust this based on the size of your icon */
+  }
+  
+  .calendar-icon {
+    position: absolute;
+    right: 10px; /* Adjust this as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensures clicks on the icon don't interfere with input */
+    color: #888; /* Change color as needed */
+  }

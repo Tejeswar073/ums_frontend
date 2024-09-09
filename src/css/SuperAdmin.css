@@ -1,0 +1,229 @@
+.homepage_main_div{
+    padding: 0rem 1rem !important;
+  
+  }
+
+.search_filter_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search_filter {
+    display: flex;
+    gap: 1rem;
+}
+
+.searchBar_cls {
+    position: relative;
+}
+
+.search_icon {
+    position: absolute;
+    left: 0.7rem;
+    top: 0.6rem;
+    color: grey;
+
+}
+
+.searchBar {
+    width: 500px;
+    height: 49px;
+    left: 58px;
+    padding: 16px 24px 16px 46px;
+    gap: 8px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0px;
+}
+
+.searchBar:focus {
+    border: none;
+    outline: 1.5px solid #d2e8fc;
+    box-shadow: 0 4px 2px 0 rgb(210, 232, 252), 0 6px 20px 0 rgb(210, 232, 252);
+}
+
+.create_ticket_btn {
+    width: 144.38pxpx;
+    height: 39.13pxpx;
+    padding: 5px 10px;
+    top: 139px;
+    left: 1237px;
+    gap: 0px;
+    border-radius: 7.65px;
+    border: none;
+    background-color: #0a3673;
+    color: white;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 13.39px;
+    font-weight: 500;
+    line-height: 19.13px;
+    text-align: left;
+}
+
+.total_tickets_div {
+    margin: 1rem 0rem;
+    /* height: 150px; */
+    /* background-color: red; */
+}
+
+.total_tickets_drop {
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+.total_tickets_h4 {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.46px;
+    text-align: left;
+    color: #022759;
+}
+
+.total_tickets_drop_down {
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    margin-top: 2px;
+}
+
+.ticket_types, .profiles_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    /* border: 1px solid red; */
+    /* background-color: red; */
+}
+
+.tickets_divs {
+    width: 340px;
+    height: 121px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+}
+
+.tickets_divs>p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    color: #3B3B3B;
+}
+
+.tickets_count {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    width: 256px;
+    height: 68px;
+    gap: 1rem;
+    border-radius: 12px;
+    opacity: 0.58px;
+    background: linear-gradient(223.82deg,
+            #E5EEF3 31.22%,
+            #D9EAF1 60.56%,
+            #D2ECEC 72.89%,
+            #D3E8FF 96.55%,
+            #DDEDFF 108.46%);
+}
+
+.tickets_count img {
+    height: 50px;
+}
+
+.tickets_count>h2 {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.47px;
+    text-align: right;
+}
+
+#Profiles_h4 {
+    margin-top: 2rem;
+}
+
+.profiles_divs {
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 121px;
+    gap: 1rem;
+    border-radius: 12px;
+    opacity: 0px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    /* color: white; */
+    background-color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: var(--TitleMediumLineHeight);
+    letter-spacing: var(--TitleMediumTracking);
+    text-align: left;
+}
+
+.profiles_divs img {
+    height: 50px;
+}
+
+#profiles_top {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+    padding: 10px 0px;
+    /* background-color: red; */
+}
+#profiles_bottom {
+    /* display: flex; */
+    margin: 15px 0px;
+    /* width: 100%; */
+    /* height: 30px; */
+    /* justify-content: space-between; */
+    /* background-color: red; */
+}
+
+.containe {
+    background-color: #eceff3 ;
+    width: 100%;
+    padding: 0 2rem !important;
+} 
+/* Styling for ReportDiv aligned to the left */
+.ReportDiv {
+    padding: 1rem 0 0 0;
+}
+
+h4{
+    color: rgba(2, 39, 89, 1) !important
+}
+
+.Dividers{
+    position: absolute;
+    display: flex;
+    width: 964px;
+    height: 21px;
+    top: 909px;
+    left: 39px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.Dividers > div > p {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.11px;
+    text-align: left;
+}

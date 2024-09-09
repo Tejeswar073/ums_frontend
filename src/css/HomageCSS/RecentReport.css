@@ -1,0 +1,119 @@
+/* .table-container {
+    overflow-x: hidden;
+    height: 323px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+tbody {
+    color : #79747E;
+}
+
+.raised-body{
+    color: #0A3673;
+    overflow: auto;
+}
+
+.raised-head {
+    color: #8F8F8F;
+}
+
+.raised-header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+
+
+
+
+.table-container {
+    height: 323px; /* Fixed height for the container */
+    overflow: hidden; /* Prevent scrolling for the entire table container */
+    border: 1px solid #ddd; /* Optional: Add a border around the container */
+    margin: 20px; /* Optional: Adjust margin as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    table-layout: fixed; /* Fixed table layout to ensure columns align properly */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    width: 20%; /* Ensure both th and td have the same width for proper alignment */
+}
+
+th {
+    font-weight: bold;
+    background: #f8f8f8; /* Optional: Background color for the header */
+    position: sticky; /* Make header sticky */
+    top: 0; /* Align the sticky header to the top */
+    z-index: 2; /* Ensure header stays on top */
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+tbody {
+    display: block; /* Make tbody a block element to allow scrolling */
+    height: 250px; /* Set a height for the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling for tbody */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    color: #79747E;
+    width: 100%; /* Set width for proper alignment */
+}
+
+.raised-body {
+    color: #0A3673;
+}
+
+.raised-head {
+    color: #8F8F8F;
+}
+
+.raised-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+thead {
+    display: table; /* Keep the header as a table element */
+     width: calc(100% - 25px); /*Adjust width to account for scrollbar width */
+    table-layout: fixed; /* Fixed layout to ensure column alignment */
+}
+
